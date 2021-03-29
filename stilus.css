@@ -1,0 +1,21 @@
+
+main {
+    width:80%;
+    max-width:800px;
+    margin:auto;
+    background:#fffff1;
+    padding:10px;
+    
+      
+}
+form{
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightblue;
+}
+h1, footer{
+    text-align: center;
+    
+}
+
+

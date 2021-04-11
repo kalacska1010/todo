@@ -1,8 +1,6 @@
 <?php
 
-require './feldolgoz.php';
+require './kapcsolat.php';
  $ab = new DBkapcsolat();
- 
- $szoveg= $_POST['szoveg'];
- $datum= $_POST['datum'];
- $sql = $ab->modosit("todo", "sz", $where);
+$id = $_GET['id'];
+ $sql = $ab->modosit("todo", "allapott=1", "id= '$id'");
